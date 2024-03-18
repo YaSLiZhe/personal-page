@@ -61,20 +61,7 @@ function Homepage() {
             <p>
               As a Computer Science student, I specialize in Website development
               using Javascript. I enjoy developing software solutions that
-              address [Your Target Audience]'s needs and enhance user
-              experiences.
-            </p>
-          </div>
-          <div className="text-lg text-gray-800 mb-8">
-            <h2 className="text-xl font-semibold mb-4">My Mission</h2>
-            <p>
-              I am currently a second-year Master's student at UC San Diego. My
-              passion lies in developing innovative digital solutions and
-              tackling real-world problems with the power of code. I'm on the
-              lookout for opportunities in the software industry, with a
-              particular interest in distributed systems and software
-              development in general. You can take a look at my Portfolio to see
-              some of my work.
+              address User's needs and enhance user experiences.
             </p>
           </div>
           <div className="text-lg text-gray-800">
@@ -82,8 +69,11 @@ function Homepage() {
             <p>
               I'm always eager to collaborate and learn from others in the field
               of software development. If you'd like to connect or discuss
-              potential opportunities, feel free to reach out to me via [Your
-              Contact Information]. Let's build something amazing together!
+              potential opportunities, feel free to reach out to me via{" "}
+              <a href="/personal-page/about" className="underline">
+                About page
+              </a>
+              . Let's build something amazing together!
             </p>
           </div>
         </div>
