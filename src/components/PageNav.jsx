@@ -38,7 +38,7 @@ function PageNav() {
               </li>
               <li className="w-full">
                 <NavLink
-                  to="/project"
+                  to="/projects"
                   className={({ isActive }) =>
                     isActive
                       ? "block py-2 px-4 w-full text-center bg-gray-200 rounded-md border-4 border-gray-600 font-semibold md:border-none md:rounded-none md:hover:bg-gray-200"

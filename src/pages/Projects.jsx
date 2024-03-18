@@ -1,44 +1,8 @@
 import PageNav from "../components/PageNav";
 import { Link } from "react-router-dom";
-import project1 from "/assets/images/project1.png";
-import project2 from "/assets/images/project2.png";
+import projects from "../../public/assets/js/projectsData";
+
 function Projects() {
-  const projects = [
-    {
-      id: 1,
-      name: "Natours",
-      description:
-        "A Tour booking Website with Stripe integration, email notifications, JWT cookies authorization, and it's built with technologies like Express, Node.js, MongoDB, and Stripe, deployable on Heroku.",
-      imageSrc: project1,
-      technologies: ["React", "Node.js", "Express"],
-      link: "https://github.com/luomi16/Natours",
-    },
-    {
-      id: 2,
-      name: "Travel List",
-      description: "Description for Project 2",
-      imageSrc: project2,
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-      link: "/project2",
-    },
-    {
-      id: 3,
-      name: "Natours",
-      description:
-        "A Tour booking Website with Stripe integration, email notifications, JWT cookies authorization, and it's built with technologies like Express, Node.js, MongoDB, and Stripe, deployable on Heroku.",
-      imageSrc: project1,
-      technologies: ["React", "Node.js", "Express"],
-      link: "https://github.com/luomi16/Natours",
-    },
-    {
-      id: 4,
-      name: "Travel List",
-      description: "Description for Project 2",
-      imageSrc: project2,
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-      link: "/project2",
-    },
-  ];
   return (
     <div>
       <PageNav />
@@ -51,7 +15,7 @@ function Projects() {
                 key={project.id}
                 className="bg-white rounded-lg shadow-md overflow-hidden"
               >
-                <Link to={project.link}>
+                <Link to={`/project/${project.id}`}>
                   <img
                     src={project.imageSrc}
                     alt={project.name}
