@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";
-import React from "react";
-import image1 from "../assets/images/1.jpg";
-import image2 from "../assets/images/2.jpg";
-import image3 from "../assets/images/3.jpg";
-import image4 from "../assets/images/4.jpg";
+import React, { useEffect } from "react";
+import image1 from "/assets/images/1.jpg";
+import image2 from "/assets/images/2.jpg";
+import image3 from "/assets/images/3.jpg";
+import image4 from "/assets/images/4.jpg";
 
 function Homepage() {
+  useEffect(() => {
+    document.title = "Homepage";
+  }, []);
+
   return (
     <div>
       <PageNav />

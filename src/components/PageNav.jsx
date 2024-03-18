@@ -28,8 +28,8 @@ function PageNav() {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "block py-2 px-4 w-full text-center text-blue-600 border-b-4 border-blue-600 font-semibold md:border-none md:hover:border-b-4"
-                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:text-blue-500 transition duration-300 md:hover:border-b-4 md:border-none"
+                      ? "block py-2 px-4 w-full text-center bg-gray-200 rounded-md border-4 border-gray-600 font-semibold md:border-none md:rounded-none md:hover:bg-gray-200"
+                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:bg-gray-200 md:hover:bg-gray-200 transition duration-300 md:hover:border-none"
                   }
                   onClick={() => setIsNavExpanded(false)}
                 >
@@ -41,8 +41,8 @@ function PageNav() {
                   to="/project"
                   className={({ isActive }) =>
                     isActive
-                      ? "block py-2 px-4 w-full text-center text-blue-600 border-b-4 border-blue-600 font-semibold md:border-none md:hover:border-b-4"
-                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:text-blue-500 transition duration-300 md:hover:border-b-4 md:border-none"
+                      ? "block py-2 px-4 w-full text-center bg-gray-200 rounded-md border-4 border-gray-600 font-semibold md:border-none md:rounded-none md:hover:bg-gray-200"
+                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:bg-gray-200 md:hover:bg-gray-200 transition duration-300 md:hover:border-none"
                   }
                   onClick={() => setIsNavExpanded(false)}
                 >
@@ -54,8 +54,8 @@ function PageNav() {
                   to="/coursework"
                   className={({ isActive }) =>
                     isActive
-                      ? "block py-2 px-4 w-full text-center text-blue-600 border-b-4 border-blue-600 font-semibold md:border-none md:hover:border-b-4"
-                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:text-blue-500 transition duration-300 md:hover:border-b-4 md:border-none"
+                      ? "block py-2 px-4 w-full text-center bg-gray-200 rounded-md border-4 border-gray-600 font-semibold md:border-none md:rounded-none md:hover:bg-gray-200"
+                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:bg-gray-200 md:hover:bg-gray-200 transition duration-300 md:hover:border-none"
                   }
                   onClick={() => setIsNavExpanded(false)}
                 >
@@ -67,8 +67,8 @@ function PageNav() {
                   to="/about"
                   className={({ isActive }) =>
                     isActive
-                      ? "block py-2 px-4 w-full text-center text-blue-600 border-b-4 border-blue-600 font-semibold md:border-none md:hover:border-b-4"
-                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:text-blue-500 transition duration-300 md:hover:border-b-4 md:border-none"
+                      ? "block py-2 px-4 w-full text-center bg-gray-200 rounded-md border-4 border-gray-600 font-semibold md:border-none md:rounded-none md:hover:bg-gray-200"
+                      : "block py-2 px-4 w-full text-center text-gray-600 font-semibold hover:bg-gray-200 md:hover:bg-gray-200 transition duration-300 md:hover:border-none"
                   }
                   onClick={() => setIsNavExpanded(false)}
                 >

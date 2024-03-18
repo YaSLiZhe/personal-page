@@ -1,7 +1,7 @@
 import PageNav from "../components/PageNav";
 import { Link } from "react-router-dom";
-import project1 from "../assets/images/project1.png";
-import project2 from "../assets/images/project2.png";
+import project1 from "/assets/images/project1.png";
+import project2 from "/assets/images/project2.png";
 function Projects() {
   const projects = [
     {
