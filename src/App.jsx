@@ -1,20 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Contact from "./pages/Contact";
+import Coursework from "./pages/Coursework";
 import About from "./pages/About";
-import Life from "./pages/Life";
 import Project from "./pages/Project";
 import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/personal-page">
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="project" element={<Project />} />
-          <Route path="life" element={<Life />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="coursework" element={<Coursework />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
